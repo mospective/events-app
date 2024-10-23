@@ -9,8 +9,8 @@ const DrawerLayout = () => (
     <Drawer.Screen
       name="index"
       options={{
-        headerTitle: 'Home',
-        drawerLabel: 'Home',
+        headerTitle: 'Events',
+        drawerLabel: 'Events',
         drawerIcon: ({ size, color }) => <Ionicons name="home-outline" size={size} color={color} />,
       }}
     />
